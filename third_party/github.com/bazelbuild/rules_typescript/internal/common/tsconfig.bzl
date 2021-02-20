@@ -277,10 +277,10 @@ def create_tsconfig(
         "stripInternal": True,
 
         # Embed source maps and sources in .js outputs
-        "inlineSourceMap": True,
-        "inlineSources": True,
+        "inlineSourceMap": False,
+        "inlineSources": False,
         # Implied by inlineSourceMap: True
-        "sourceMap": False,
+        "sourceMap": True,
     }
 
     # "node_modules" still checked for backward compat for ng_module
